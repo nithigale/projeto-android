@@ -152,29 +152,27 @@ main span {
    border-radius: 5px 5px 5px 5px;
 }
 
-aside{
+aside {
     background-color: #0cb10c77;
-    border-radius: 4.5px ;
-    box-shadow: 5px 5px 15px #5c473a9c;
-    width: 900px;
-    padding: -40px 0px 5px 0px;
+    padding: 10px;
+    border-radius: 10px ;
     margin: auto;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.418);
+}
+
+aside > h3 {
+    background-color: #014101;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    margin: -10px -10px 0px -10px;
+    border-radius: 10px 10px 0px 0px;
 }
 
 aside ul {
-     list-style-type: '\1F5F8\00A0\00A0';
+    list-style-type: '\1F5F8\00A0\00A0';
     list-style-position: inside;
     columns: 2;
-}
-
-.quer {
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    padding: 10px 7px 10px 12px;
-    background-color: #014101;
-    margin:30px 0px 10px 0px;
-    border-radius: 4.5px 4.5px 0px 0px;
 }
 
 .paragrafo {
